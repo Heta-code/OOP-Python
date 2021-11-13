@@ -34,9 +34,14 @@ d = Doctor()#multiple inheritance
 d.Get_Dataone("heta",1)
 d.Get_Datatwo(161,54,82/140,131)
 
-f = open("person.txt","rt")
-content = f.read()
-print(content)
+#File Handling
+f = open("person.txt","rt")#Open File in default(read) mode
+for line in f:#Not used f.read() because pointer f becomes empty so not able to iterate the detais again so used for insted f.read()
+    print(line, end="")
+f.close()
+#To write in the file
+f = open('person.txt','w')
+f.write(input("\n\tEnter Your Health details(Choice):"))
 f.close()
 
-print("------Thank You To Test Our Software.--------")
+print("\n------Thank You To Test Our Software.--------")
