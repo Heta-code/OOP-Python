@@ -1,0 +1,24 @@
+/*******Family's Daily Health Report********/
+/***Previous Data***/
+(01/11/2021)
+Name: N
+fmnumber: 3
+height: 185
+weight: 85
+Age: 23
+Exercise: Yes
+
+(02/11/2021)
+Name: K
+fmnumber: 2
+height: 171
+weight: 61
+Age: 21
+Exercise: No
+
+Name: H
+fmnumber: 4
+height: 169
+weight: 59
+Age: 19
+Exercise: Yes
